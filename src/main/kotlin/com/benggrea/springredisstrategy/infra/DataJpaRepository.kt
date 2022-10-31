@@ -1,4 +1,7 @@
 package com.benggrea.springredisstrategy.infra
 
-class DataJpaRepository {
-}
+import com.benggrea.springredisstrategy.domain.Data
+import org.springframework.data.jpa.repository.JpaRepository
+
+
+interface DataJpaRepository : JpaRepository<Data, Long>

@@ -8,9 +8,9 @@ import javax.persistence.Table
 
 @Table(name = "dumy")
 @Entity
-class Data {
+class Data(var data: String) {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     var id : Long? = null
-    var data : String = ""
+
 }
