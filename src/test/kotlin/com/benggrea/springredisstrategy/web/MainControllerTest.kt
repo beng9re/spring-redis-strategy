@@ -16,7 +16,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers
 
 @SpringBootTest
 @AutoConfigureMockMvc
-internal class MainControllerTest @Autowired constructor(
+class MainControllerTest @Autowired constructor(
     val mockMvc : MockMvc
 ) {
     @Test
