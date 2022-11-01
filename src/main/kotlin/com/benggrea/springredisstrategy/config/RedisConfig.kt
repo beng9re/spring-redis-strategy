@@ -33,9 +33,7 @@ class SampleDataWarmUp(
 
     @PostConstruct
     fun setUp() {
-
         val datas = listOf(Data("a"), Data("b"), Data("c"))
-
         dataJpaRepository.saveAll(datas)
     }
 
