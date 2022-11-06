@@ -3,6 +3,7 @@ logging:
     root: info
 
 spring:
+
   jpa:
     show-sql: true
     hibernate:
@@ -20,6 +21,11 @@ spring:
   h2:
     console:
       enabled: true
+  redis:
+    host: localhost
+    port: 16379
+
+
 
 
 
